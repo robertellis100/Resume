@@ -1,0 +1,21 @@
+﻿body
+{background-color:aquamarine
+}
+p{  
+       line-height:20px
+}
+
+.alt-p{
+    line-height:30px
+}
+.rectangle{
+    height:10px;
+    width:25px;
+    background-color:red;
+    margin:20px;
+    border:10px solid; 
+    border-color:purple;
+    padding:10px;
+    text-align:right
+   
+}

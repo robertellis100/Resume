@@ -1,4 +1,4 @@
-<html>
+<html class="gradient">
 <head>
     <title>Resume</title>
    <!--BEGIN STYLESHEETS-->
@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="standardTheme.css" />
     <!--END STYLESHEETS-->
 </head>
-<body>
-    <div class="rectangle"></div>
+<body class="gradient">
+    <!--<div class="rectangle"></div>-->
     <div align="center">
-        <img height="25%" width="15%" src="DSC7395.jpg"</a>
+        <img class="image" src="DSC7395.jpg"</a>
         <h1 class="bold">Robert Ellis</h1>
         <br />
         <small>
-            <a href="https://github.com/robertellis100"><img width="3%" height="6%" src="https://git-for-windows.github.io/img/git_logo.png"></a>
-            <a href="https://www.linkedin.com/in/robertellis100"><img width="3%" height="6%" src="https://lh3.ggpht.com/XgjH1SF8ce-fC597Y0gJqnLt-PpZ1zlE4xUcB8GH6_B5i00SR7jix5Re-T1kkL52VA=w300"></a>
-            <a href="https://twitter.com/robertellis100"><img width="3%" height="6%" src="https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300"></a>
+            <a href="https://github.com/robertellis100"><img class="icon"src="https://git-for-windows.github.io/img/git_logo.png"></a>
+            <a href="https://www.linkedin.com/in/robertellis100"><img class="icon" src="https://lh3.ggpht.com/XgjH1SF8ce-fC597Y0gJqnLt-PpZ1zlE4xUcB8GH6_B5i00SR7jix5Re-T1kkL52VA=w300"></a>
+            <a href="https://twitter.com/robertellis100"><img class="icon" src="https://lh3.ggpht.com/lSLM0xhCA1RZOwaQcjhlwmsvaIQYaP3c5qbDKCgLALhydrgExnaSKZdGa8S3YtRuVA=w300"></a>
+        </small>
     </div>
     <br />
     <br />
@@ -189,27 +190,29 @@
         <br />
     </section>
     <section>
-<form id="contactForm" action="nothing right now">
+<form id="contactForm" action="nothing right now" >
     <h3 class="bold">CONTACT</h3>
     <div>
         Want to contact me? Please leave a brief message and I'll follow up with you.
     </div>
-     <div>
+     <div class="formLabel">
         <label for="conactName">Name:</label>
         <input name="contactName" type="text" />
     </div>
     <br />
-    <div>
+    <div class="formLabel">
         <label for="conactEmail">Email:</label>
         <input name="contactEmail" type="email" />
     </div>
     <br />
-    <div>
+    <div class="formLabel">
         <label for="conactMessage">Message:</label>
         <textarea name="contactMessage" type="text" cols=40 rows=8></textarea>
     </div>
-    <button type="submit">Submit</button>
-    <button type="reset">Clear</button>
+    <div class="button">
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </div>
 </form>
         
     </section>

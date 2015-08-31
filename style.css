@@ -1,15 +1,21 @@
-﻿body
-{
-}
-p{  
+﻿/*p{  
        line-height:20px;
        background-image:url();
        background-size:auto;
        background-repeat:;
        text-decoration-color:aqua;
-       color:greenyellow
+       color:black
+}*/
 
+.text{font-family:'Times New Roman';}
+
+.alignleft {
+	float: left;
 }
+.alignright {
+	float: right;
+}
+
 .gradient{
     background:linear-gradient(270deg, gray, white);
 }
@@ -28,11 +34,13 @@ p{
  }
 .image{
     height:25%;
+    width:15%;
     border-radius:30px;
     
 }
 .icon{
     height:6%;
+    width:3%;
 }
 .formLabel{
   display:inline-block;
